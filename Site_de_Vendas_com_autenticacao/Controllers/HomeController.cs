@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -12,6 +13,7 @@ using Site_de_Vendas_com_autenticacao.Repositories;
 using Site_de_Vendas_com_autenticacao.Repositories.Interface;
 
 namespace Site_de_Vendas_com_autenticacao.Controllers {
+    [Authorize]
     public class HomeController : Controller {
 
         private readonly IEventoRepository _eventoRepository;
@@ -30,20 +32,23 @@ namespace Site_de_Vendas_com_autenticacao.Controllers {
             var list = _eventoRepository.Listar();
             return View(list);
         }
-
+        
+        [Authorize(Policy = "Admin")]
         [HttpGet] public IActionResult Criar() {
             var generos = _generoRepository.Listar();
             var casaShows = _casaShowRepository.Listar();
             var viewModel = new  EventoViewModel() {CasaShows = casaShows, Generos = generos};
             return View(viewModel);
         }
-
+        
+        [Authorize(Policy = "Admin")]
         [HttpPost] public IActionResult Criar([FromForm]Evento evento) {
             evento.Id = 0;
             _eventoRepository.Adicionar(evento);
             return RedirectToAction(nameof(Index));
         }
-
+        
+        [Authorize(Policy = "Admin")]
         [HttpGet] public IActionResult Editar(int id) {
             var evento = _eventoRepository.Buscar(id);
             var generos = _generoRepository.Listar();
@@ -51,7 +56,8 @@ namespace Site_de_Vendas_com_autenticacao.Controllers {
             var viewModel = new  EventoViewModel() {CasaShows = casaShows, Evento = evento, Generos = generos};
             return View(viewModel);
         }
-        
+
+        [Authorize(Policy = "Admin")]
         [HttpPost] public IActionResult Editar([FromForm] Evento evento) {
             _eventoRepository.Editar(evento);
             return RedirectToAction(nameof(Index));
@@ -64,7 +70,8 @@ namespace Site_de_Vendas_com_autenticacao.Controllers {
             var viewModel = new  EventoViewModel() {CasaShows = casaShows, Evento = evento, Generos = generos};
             return View(viewModel);
         }
-
+        
+        [Authorize(Policy = "Admin")]
         [HttpPost] public IActionResult Deletar(int id) {
             var evento = _eventoRepository.Buscar(id);
             _eventoRepository.Remover(evento);

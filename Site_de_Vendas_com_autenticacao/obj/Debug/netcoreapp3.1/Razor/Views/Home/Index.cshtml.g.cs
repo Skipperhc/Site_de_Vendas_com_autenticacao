@@ -27,6 +27,13 @@ using Site_de_Vendas_com_autenticacao.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 4 "C:\Users\VRHC\source\repos\RiderProjects\Site_de_Vendas_com_autenticacao\Site_de_Vendas_com_autenticacao\Views\_ViewImports.cshtml"
+using Site_de_Vendas_com_autenticacao.Areas.Identity.Pages.Account;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\VRHC\source\repos\RiderProjects\Site_de_Vendas_com_autenticacao\Site_de_Vendas_com_autenticacao\Views\Home\Index.cshtml"
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
@@ -34,7 +41,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"03450989955fb0914959af45dababb66c4e1c588", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"17b05f812cf0dfc8c05c594e047957c2c0e477c5", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5fa10abd9009e862ffe7b85c611d875e1c2aa8b0", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Evento>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Editar", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -187,7 +194,7 @@ WriteAttributeValue("", 892, Html.DisplayFor(modelitem => item.Genero.Imagem), 8
 #line hidden
 #nullable disable
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03450989955fb0914959af45dababb66c4e1c58811385", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03450989955fb0914959af45dababb66c4e1c58811665", async() => {
                 WriteLiteral("Editar");
             }
             );
@@ -219,7 +226,7 @@ WriteAttributeValue("", 892, Html.DisplayFor(modelitem => item.Genero.Imagem), 8
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03450989955fb0914959af45dababb66c4e1c58813685", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03450989955fb0914959af45dababb66c4e1c58813965", async() => {
                 WriteLiteral("Detalhar");
             }
             );
@@ -251,7 +258,7 @@ WriteAttributeValue("", 892, Html.DisplayFor(modelitem => item.Genero.Imagem), 8
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03450989955fb0914959af45dababb66c4e1c58815989", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03450989955fb0914959af45dababb66c4e1c58816269", async() => {
                 WriteLiteral("\r\n                    <input name=\"id\" id=\"id\"");
                 BeginWriteAttribute("value", " value=\"", 1858, "\"", 1874, 1);
 #nullable restore

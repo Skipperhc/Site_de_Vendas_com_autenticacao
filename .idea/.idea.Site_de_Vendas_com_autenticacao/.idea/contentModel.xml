@@ -11,8 +11,30 @@
         <e p="appsettings.json" t="Include" />
         <e p="Areas" t="Include">
           <e p="Identity" t="Include">
+            <e p="IdentityHostingStartup.cs" t="Include" />
             <e p="Pages" t="Include">
+              <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+              <e p="_ViewImports.cshtml" t="Include" />
               <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Account" t="Include">
+                <e p="_ViewImports.cshtml" t="Include" />
+                <e p="AccessDenied.cshtml" t="Include" />
+                <e p="AccessDenied.cshtml.cs" t="Include" />
+                <e p="ConfirmEmail.cshtml" t="Include" />
+                <e p="ConfirmEmail.cshtml.cs" t="Include" />
+                <e p="Login.cshtml" t="Include" />
+                <e p="Login.cshtml.cs" t="Include" />
+                <e p="Logout.cshtml" t="Include" />
+                <e p="Logout.cshtml.cs" t="Include" />
+                <e p="Manage" t="Include">
+                  <e p="_StatusMessage.cshtml" t="Include" />
+                  <e p="_ViewImports.cshtml" t="Include" />
+                </e>
+                <e p="Register.cshtml" t="Include" />
+                <e p="Register.cshtml.cs" t="Include" />
+                <e p="RegisterConfirmation.cshtml" t="Include" />
+                <e p="RegisterConfirmation.cshtml.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
@@ -66,6 +88,7 @@
             <e p="IRepository.cs" t="Include" />
           </e>
         </e>
+        <e p="ScaffoldingReadMe.txt" t="Include" />
         <e p="Site_de_Vendas_com_autenticacao.csproj" t="IncludeRecursive" />
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
@@ -160,6 +183,7 @@
           <e p="upload" t="Include">
             <e p="imagens" t="Include">
               <e p="607a0b10-90c8-4938-9dab-d63a93b3adbc.png" t="Include" />
+              <e p="8a07603b-acb0-443b-9891-d3b4c43a7475.gif" t="Include" />
             </e>
           </e>
         </e>

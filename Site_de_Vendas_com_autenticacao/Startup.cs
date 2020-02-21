@@ -31,6 +31,8 @@ namespace Site_de_Vendas_com_autenticacao {
                     .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddAuthorization(options => options.AddPolicy("Admin", policy => policy.RequireUserName("Admin@Admin.com")));
             
             services.AddScoped<IEventoRepository, EventoRepository>();
             services.AddScoped<ICasaShowRepository, CasaShowRepository>();

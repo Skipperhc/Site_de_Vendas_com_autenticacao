@@ -1,44 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bd17ce9-752d-4527-9bca-ba68e8394a54" name="Default Changelist" comment="" />
+    <list default="true" id="0bd17ce9-752d-4527-9bca-ba68e8394a54" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Site_de_Vendas_com_autenticacao/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Site_de_Vendas_com_autenticacao/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Site_de_Vendas_com_autenticacao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Site_de_Vendas_com_autenticacao/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/CasaShowController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/CasaShowController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/GeneroController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/GeneroController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Site_de_Vendas_com_autenticacao.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Site_de_Vendas_com_autenticacao.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/bin/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/CasaShow/Criar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/CasaShow/Criar.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/CasaShow/Detalhar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/CasaShow/Detalhar.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/CasaShow/Editar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/CasaShow/Editar.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/CasaShow/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/CasaShow/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Genero/Criar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Genero/Criar.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Genero/Detalhar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Genero/Detalhar.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Genero/Editar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Genero/Editar.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Genero/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Genero/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Home/Criar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Home/Criar.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Home/Detalhar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Home/Detalhar.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Home/Editar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Home/Editar.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Debug/netcoreapp3.1/Site_de_Vendas_com_autenticacao.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Site_de_Vendas_com_autenticacao.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Site_de_Vendas_com_autenticacao.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Site_de_Vendas_com_autenticacao.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/Site_de_Vendas_com_autenticacao.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Models/Evento.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Migrations/20200220155556_Identity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Register.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/GeneroController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/CasaShowController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Login.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Logout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/AccessDenied.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/ConfirmEmail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Migrations/20200220155556_Identity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Home/Detalhar.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Repositories/CasaShowRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Repositories/Interface/ICasaShowRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Repositories/Interface/IGeneroRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Repositories/Interface/IEventoRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Repositories/Interface/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Genero/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Repositories/Interface/IGeneroRepository.cs" />
         <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Repositories/CasaShowRepository.cs" />
         <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Repositories/Interface/IEventoRepository.cs" />
         <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Genero/Index.cshtml" />
         <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Home/Detalhar.cshtml" />
-        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Startup.cs" />
         <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/appsettings.json" />
         <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Login.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Logout.cshtml" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/AccessDenied.cshtml" />
         <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/Shared/_LoginPartial.cshtml" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Login.cshtml" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/ConfirmEmail.cshtml" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Areas/Identity/Pages/Account/Register.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Startup.cs" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/CasaShowController.cs" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/GeneroController.cs" />
+        <option value="$PROJECT_DIR$/Site_de_Vendas_com_autenticacao/Controllers/HomeController.cs" />
       </list>
     </option>
   </component>
@@ -51,6 +138,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -109,30 +197,39 @@
       <option name="presentableId" value="Default" />
       <updated>1582210114241</updated>
       <workItem from="1582210115882" duration="3950000" />
+      <workItem from="1582287442161" duration="5957000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582225652695">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582294274387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582225652695" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582225652695">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582294274387" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582294274387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582225652695" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582225652695">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582294274387" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582294274386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582225652695" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582225652695">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582294274386" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582294274387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582225652695" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582294274387" />
+    <state x="587" y="384" width="718" height="536" key="find.popup" timestamp="1582290991932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="587" y="384" width="718" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582290991932" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1582290165292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582290165292" />
   </component>
 </project>

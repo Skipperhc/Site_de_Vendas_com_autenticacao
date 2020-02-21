@@ -1,6 +1,7 @@
 ﻿﻿using System;
 using System.IO;
-using Microsoft.AspNetCore.Http;
+ using Microsoft.AspNetCore.Authorization;
+ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Hosting.Internal;
@@ -10,6 +11,7 @@ using Microsoft.Extensions.Hosting.Internal;
  using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace Site_de_Vendas_com_autenticacao.Controllers {
+    [Authorize(Policy = "Admin")]
     public class GeneroController : Controller {
         private readonly IGeneroRepository _generoRepository;
         private IHostingEnvironment _env;

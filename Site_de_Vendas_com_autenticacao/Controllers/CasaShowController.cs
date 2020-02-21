@@ -1,12 +1,14 @@
 ﻿﻿using System.Security.Claims;
 using System.Security.Policy;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Mvc;
+ using Microsoft.AspNetCore.Authorization;
+ using Microsoft.AspNetCore.Mvc;
  using Site_de_Vendas_com_autenticacao.Repositories.Interface;
  using Site_de_Vendas_com_autenticacao.Models;
  using Site_de_Vendas_com_autenticacao.Models.ViewModel;
 
  namespace Site_de_Vendas_com_autenticacao.Controllers {
+     [Authorize(Policy = "Admin")]
     public class CasaShowController : Controller {
 
         private readonly ICasaShowRepository _casaShowRepository;
