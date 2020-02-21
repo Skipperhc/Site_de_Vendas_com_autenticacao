@@ -37,6 +37,7 @@ namespace Site_de_Vendas_com_autenticacao {
             services.AddScoped<IEventoRepository, EventoRepository>();
             services.AddScoped<ICasaShowRepository, CasaShowRepository>();
             services.AddScoped<IGeneroRepository, GeneroRepository>();
+            services.AddScoped<ICompraRepository, CompraRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

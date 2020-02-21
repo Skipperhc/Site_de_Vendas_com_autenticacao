@@ -9,14 +9,14 @@ using Site_de_Vendas_com_autenticacao.Data;
 namespace Site_de_Vendas_com_autenticacao.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200220155556_Identity")]
-    partial class Identity
+    [Migration("20200221175848_addCompra")]
+    partial class addCompra
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.1")
+                .HasAnnotation("ProductVersion", "3.1.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -238,6 +238,41 @@ namespace Site_de_Vendas_com_autenticacao.Migrations
                     b.ToTable("CasaShows");
                 });
 
+            modelBuilder.Entity("Site_de_Vendas_com_autenticacao.Models.Compra", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("CasaEndereço")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<string>("CasaNome")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<DateTime>("EventoData")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("EventoNome")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<double>("EventoPreco")
+                        .HasColumnType("double");
+
+                    b.Property<string>("GeneroNome")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<string>("PessoaId")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<int>("QtdIgressos")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Compras");
+                });
+
             modelBuilder.Entity("Site_de_Vendas_com_autenticacao.Models.Evento", b =>
                 {
                     b.Property<int>("Id")
@@ -256,6 +291,9 @@ namespace Site_de_Vendas_com_autenticacao.Migrations
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<int>("QtdIngressos")
+                        .HasColumnType("int");
 
                     b.Property<double>("preco")
                         .HasColumnType("double");

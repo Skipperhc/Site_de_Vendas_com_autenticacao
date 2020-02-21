@@ -36,7 +36,7 @@
                 <select asp-for="Evento.GeneroId" asp-items="@(new SelectList(Model.Generos, "Id", "Nome"))" class="form-control"></select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-success"/>
+                <input type="submit" value="Criar" class="btn btn-success"/>
                 <a asp-action="Index" class="btn btn-secondary">Voltar para a lista</a>
             </div>
         </form>

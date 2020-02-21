@@ -48,19 +48,23 @@
           <e p="ApplicationDbContext.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20200220155211_CreateIdentitySchema.cs" t="Include" />
-          <e p="20200220155211_CreateIdentitySchema.Designer.cs" t="Include" />
-          <e p="20200220155556_Identity.cs" t="Include" />
-          <e p="20200220155556_Identity.Designer.cs" t="Include" />
+          <e p="20200221175544_CreateIdentitySchema.cs" t="Include" />
+          <e p="20200221175544_CreateIdentitySchema.Designer.cs" t="Include" />
+          <e p="20200221175848_addCompra.cs" t="Include" />
+          <e p="20200221175848_addCompra.Designer.cs" t="Include" />
+          <e p="20200221183113_addasdasd.cs" t="Include" />
+          <e p="20200221183113_addasdasd.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="CasaShow.cs" t="Include" />
+          <e p="Compra.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="Evento.cs" t="Include" />
           <e p="Genero.cs" t="Include" />
           <e p="ViewModel" t="Include">
             <e p="CasaShowViewModel.cs" t="Include" />
+            <e p="CompraViewModel.cs" t="Include" />
             <e p="EventoViewModel.cs" t="Include" />
             <e p="GeneroViewModel.cs" t="Include" />
           </e>
@@ -79,10 +83,12 @@
         </e>
         <e p="Repositories" t="Include">
           <e p="CasaShowRepository.cs" t="Include" />
+          <e p="CompraRepository.cs" t="Include" />
           <e p="EventoRepository.cs" t="Include" />
           <e p="GeneroRepository.cs" t="Include" />
           <e p="Interface" t="Include">
             <e p="ICasaShowRepository.cs" t="Include" />
+            <e p="ICompraRepository.cs" t="Include" />
             <e p="IEventoRepository.cs" t="Include" />
             <e p="IGeneroRepository.cs" t="Include" />
             <e p="IRepository.cs" t="Include" />
@@ -107,6 +113,7 @@
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Home" t="Include">
+            <e p="Comprar.cshtml" t="Include" />
             <e p="Criar.cshtml" t="Include" />
             <e p="Detalhar.cshtml" t="Include" />
             <e p="Editar.cshtml" t="Include" />
@@ -184,6 +191,7 @@
             <e p="imagens" t="Include">
               <e p="607a0b10-90c8-4938-9dab-d63a93b3adbc.png" t="Include" />
               <e p="8a07603b-acb0-443b-9891-d3b4c43a7475.gif" t="Include" />
+              <e p="ea6226bc-2aaf-4fdc-baca-e9648ca6336b.gif" t="Include" />
             </e>
           </e>
         </e>

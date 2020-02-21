@@ -26,6 +26,15 @@
         <th>
             @Html.DisplayNameFor(model => model.Data)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QtdIngressos)
+        </th>
+        <th>
+            Ações
+        </th>
+        <th>
+            Realizar pedido
+        </th>
         <th></th>
     </tr>
     </thead>
@@ -50,6 +59,9 @@
             <td>
                 @Html.DisplayFor(modelitem => item.Data)
             </td>
+            <th>
+                @Html.DisplayFor(modelitem => item.QtdIngressos)
+            </th>
             <td>
                 <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-primary">Editar</a>
                 <a asp-action="Detalhar" asp-route-id="@item.Id" class="btn btn-secondary">Detalhar</a>
@@ -57,6 +69,9 @@
                     <input name="id" id="id" value="@item.Id" class="form-control" hidden/>
                     <input type="submit" value="Excluir" class="btn btn-danger"/>
                 </form>
+            </td>
+            <td>
+                <a asp-action="Comprar" asp-route-id="@item.Id" class="btn btn-success">Comprar</a>
             </td>
         </tr>
     }

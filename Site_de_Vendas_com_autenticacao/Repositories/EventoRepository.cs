@@ -35,5 +35,10 @@ namespace Site_de_Vendas_com_autenticacao.Repositories {
             _dbContext.Eventos.Remove(entidade);
             _dbContext.SaveChanges();
         }
+
+        public void Comprar(Evento evento, int qtdingressos) {
+            evento.QtdIngressos = evento.QtdIngressos - qtdingressos;
+            _dbContext.SaveChanges();
+        }
     }
 }

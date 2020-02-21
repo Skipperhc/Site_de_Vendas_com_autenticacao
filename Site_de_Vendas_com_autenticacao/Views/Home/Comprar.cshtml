@@ -1,0 +1,67 @@
+﻿@model Site_de_Vendas_com_autenticacao.Models.ViewModel.CompraViewModel
+
+@{
+    ViewData["Title"] = "title";
+    Layout = "_Layout";
+}
+@* *@
+@* @if (TempData["Erro"] != null) { *@
+@*     <div class="alert alert-danger"> *@
+@*         @TempData["Erro"] *@
+@*     </div> *@
+@* } *@
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Comprar" method="post">
+            <input type="hidden" asp-for="Compra.Id">
+            <div class="form-group">
+                <label asp-for="Compra.EventoNome"></label>
+                <input asp-for="Compra.EventoNome" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Compra.EventoPreco"></label>
+                <input asp-for="Compra.EventoPreco" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label >Ingressos restantes</label>
+                <input asp-for="Evento.QtdIngressos" class="form-control" disabled/>
+            </div>
+            <input type="hidden" asp-for="Evento.Id">
+            <div class="form-group">
+                <label asp-for="Compra.EventoData"></label>
+                <input asp-for="Compra.EventoData" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Compra.CasaNome"></label>
+                <input asp-for="Compra.CasaNome" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Compra.CasaEndereço"></label>
+                <input asp-for="Compra.CasaEndereço" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Compra.GeneroNome"></label>
+                <input asp-for="Compra.GeneroNome" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label>Quantos ingressos deseja comprar?</label>
+                <input asp-for="Compra.QtdIgressos" class="form-control"/>
+                <span class="text-danger" asp-validation-for="Compra.QtdIgressos"></span>
+            </div>
+            <div class="form-group">
+                <label>Nome do comprador</label>
+                <input asp-for="Compra.NomeComprador" class="form-control"/>
+                <span class="text-danger" asp-validation-for="Compra.NomeComprador"></span>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Comprar" class="btn btn-success"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

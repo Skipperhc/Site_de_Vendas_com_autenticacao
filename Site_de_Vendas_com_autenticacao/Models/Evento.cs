@@ -31,6 +31,7 @@ namespace Site_de_Vendas_com_autenticacao.Models {
         public DateTime Data { get; set; }
         public int CasaShowId { get; set; }
         public int GeneroId { get; set; }
+        public int QtdIngressos { get; set; }
         
     }
 }
